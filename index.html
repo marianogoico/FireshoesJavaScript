@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fireshoes</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+    <header>
+        <a href=""><img class="logo" src="/img/logo.jpg" alt=""></a>
+        <div class="icono-contenedor">
+            <div class="contenedor-icono-carrito">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" 
+            stroke-width="1.5" stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" 
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 
+                00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 
+                60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 
+                0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                </svg>
+                <div class="contador">
+                    <span id="contador">0</span>
+                </div>
+            </div>
+
+
+              <div class="contenedor-carrito hidden-carrito">
+                <div class="contenedor-productos-carrito">
+                    <div class="productos-carrito">
+                        <div class="info-carrito">
+                            <span class="cantidad-producto">1</span>
+                            <p class="titulo-producto">Air Force</p>
+                            <span class="precio-producto-carrito">$50</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                    </div>
+                </div>
+                
+                <div class="total-carrito">
+                    <h2>Total:</h2>
+                    <span class="total-pagar">$105</span>
+                    <button class="boton-comprar">Comprar</button>
+                </div>
+              </div>
+        </div>
+    </header>
+    <section class="contenedor-items" id="contenedor-items">
+    </section>
+
+    <script src="/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+[
+    {
+        "id": "zapatilla-1",
+        "titulo": "Air Force",
+        "imagen": "/img/airforce.jpg",
+        "precio": 70
+    },
+    {
+        "id": "zapatilla-2",
+        "titulo": "Dunk Low",
+        "imagen": "/img/dunklow.jpg",
+        "precio": 110
+    },
+    {
+        "id": "zapatilla-3",
+        "titulo": "Jordan 1",
+        "imagen": "/img/jordan1.jpeg",
+        "precio": 120
+    },
+    {
+        "id": "zapatilla-4",
+        "titulo": "Jordan 4",
+        "imagen": "/img/jordan4.jpg",
+        "precio": 125
+    },
+    {
+        "id": "zapatilla-5",
+        "titulo": "NB 550",
+        "imagen": "/img/newbalance.jpg",
+        "precio": 105
+    },
+    {
+        "id": "ropa-1",
+        "titulo": "Bulls Jersey",
+        "imagen": "/img/bullsremera.jpg",
+        "precio": 100
+    },
+    {
+        "id": "ropa-2",
+        "titulo": "Lakers Jersey",
+        "imagen": "/img/lakersremera.png",
+        "precio": 100
+    },
+    {
+        "id": "ropa-3",
+        "titulo": "Varsity Jacket",
+        "imagen": "/img/varsityjacket.jpg",
+        "precio": 150
+    },
+    {
+        "id": "ropa-4",
+        "titulo": "Warriors Jersey",
+        "imagen": "/img/warriorsremera.jpg",
+        "precio": 100
+    }
+]
